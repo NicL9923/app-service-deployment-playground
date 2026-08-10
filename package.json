@@ -1,0 +1,12 @@
+{
+  "name": "app-service-deployment-playground",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal App Service sample used to exercise source-connected deployment scenarios.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
