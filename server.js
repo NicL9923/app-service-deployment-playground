@@ -1,7 +1,6 @@
 /**
  * Serves a dependency-free sample page for App Service deployment testing.
- * The response identifies the host and deployment timestamp so slot changes
- * are easy to recognize after a deployment or swap.
+ * Each response includes the host name and the time the response was generated.
  */
 
 const http = require("node:http");
